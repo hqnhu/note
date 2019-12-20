@@ -1,3 +1,25 @@
 <resources>
-    <string name="app_name">Note</string>
+    <string name="app_name">Simple Note</string>
+    <string name="empty_note">Your note list is empty, let add some notes.</string>
+
+    <!-- Menu Item -->
+    <string name="menu_item_search">Search</string>
+    <string name="menu_item_about_app">About App</string>
+
+    <string name="menu_item_sort">Sort</string>
+    <string name="menu_item_sort_by_color">By color</string>
+    <string name="menu_item_sort_alphabetically">Alphabetically</string>
+    <string name="menu_item_sort_by_create_date">By date</string>
+
+    <string name="menu_item_view">View</string>
+    <string name="menu_item_listView">List</string>
+    <string name="menu_item_gridView">Grid</string>
+    <string name="menu_item_DetailView">Detail</string>
+
+    <string name="menu_item_setting">Setting</string>
+
+    <!-- Navigation drawer Item -->
+    <string name="nav_item_calender">Calendar</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>

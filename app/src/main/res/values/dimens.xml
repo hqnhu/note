@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main Activity components -->
+    <dimen name="empty_icon_width">90dp</dimen>
+    <dimen name="empty_icon_height">90dp</dimen>
+    
+    <dimen name="margin_layout">8dp</dimen>
+    <dimen name="navigation_header_height">250dp</dimen>
+
+    <dimen name="tool_bar_height">40dp</dimen>
+
+</resources>

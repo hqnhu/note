@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_bar_search"
+        android:title="@string/menu_item_search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/action_bar_sort"
+        android:title="@string/menu_item_sort"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:iconTint="@android:color/black">
+
+        <menu>
+            <item
+                android:id="@+id/action_bar_sort_color"
+                android:title="@string/menu_item_sort_by_color"
+                android:icon="@drawable/ic_color_lens_black_24dp"
+                />
+            <item
+                android:id="@+id/action_bar_sort_alphabetically"
+                android:title="@string/menu_item_sort_alphabetically"
+                android:icon="@drawable/ic_sort_by_alpha_black_24dp"
+                />
+            <item
+                android:id="@+id/action_bar_sort_date"
+                android:title="@string/menu_item_sort_by_create_date"
+                android:icon="@drawable/ic_access_time_black_24dp"
+                />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_bar_view"
+        android:title="@string/menu_item_view"
+        android:icon="@drawable/ic_view_list">
+        <menu>
+            <item
+                android:id="@+id/action_bar_view_list"
+                android:title="@string/menu_item_listView"
+                android:icon="@drawable/ic_view_list"
+                />
+            <item
+                android:id="@+id/action_bar_view_grid"
+                android:title="@string/menu_item_gridView"
+                android:icon="@drawable/ic_view_grid"
+                />
+            <item
+                android:id="@+id/action_bar_view_detail"
+                android:title="@string/menu_item_DetailView"
+                android:icon="@drawable/ic_view_detail"
+                />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_bar_setting"
+        android:title="@string/menu_item_setting"
+        android:icon="@drawable/ic_setting"
+        />
+
+</menu>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Simple Note</string>
+    <string name="empty_note">Bạn chưa có ghi chú nào cả, hãy tạo vài ghi chú mới nào.</string>
+
+    <!-- Menu Item -->
+    <string name="menu_item_search">Tìm kiếm</string>
+    <string name="menu_item_about_app">Thông tin</string>
+    
+    <string name="menu_item_sort">Sắp xếp</string>
+    <string name="menu_item_sort_by_color">Theo màu</string>
+    <string name="menu_item_sort_alphabetically">Theo bảng chữ cái</string>
+    <string name="menu_item_sort_by_create_date">Theo ngày</string>
+    
+    <string name="menu_item_view">Xem</string>
+    <string name="menu_item_listView">Danh sách</string>
+    <string name="menu_item_gridView">Lưới</string>
+    <string name="menu_item_DetailView">Chi tiết</string>
+
+    <string name="menu_item_setting">Cài đặt</string>
+    
+
+    <!-- Navigation drawer Item -->
+    <string name="nav_item_calender">Lịch</string>
+    <string name="navigation_drawer_open">Mở navigation drawer</string>
+    <string name="navigation_drawer_close">Đóng navigation drawer</string>
+
+</resources>
