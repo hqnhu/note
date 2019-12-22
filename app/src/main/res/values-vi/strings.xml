@@ -24,4 +24,12 @@
     <string name="navigation_drawer_open">Mở navigation drawer</string>
     <string name="navigation_drawer_close">Đóng navigation drawer</string>
 
+
+    <!-- About -->
+    <string name="about_title">Thông tin về SimpleNote</string>
+    <string name="make_by">Ứng dụng được làm bởi\nnhóm 8 - Lớp: CQ17/33</string>
+    <string name="members">Thành viên:</string>
+    <string name="member_detail">"Trần Phương Nghi: 1712612\nTống Thị Thảo Nguyên: 1712623\nHuỳnh Quỳnh Như: 1712642"</string>
+    <string name="about_descrition">"Hỗ trợ cho Android 8.0 trở lên\nNote đầy màu sắc, dễ sử dụng, có danh sách check, nhắc nhở, lịch... "</string>
+    <string name="version">Phiên bản: 1.0.0</string>
 </resources>

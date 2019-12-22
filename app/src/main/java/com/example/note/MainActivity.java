@@ -9,8 +9,10 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.navigation.NavController;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.Menu;
@@ -24,6 +26,7 @@ import com.google.android.material.navigation.NavigationView;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.Calendar;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -34,6 +37,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private NavigationView navigationView;
     private ActionBarDrawerToggle toggle;
 
+    private Toolbar toolbar;
+    private Intent intent;
+
 
 
     @Override
@@ -43,12 +49,16 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         ShowNav();
 
+
     }
 
     //show Navigation
     private void ShowNav(){
         drawerLayout = (DrawerLayout) findViewById(R.id.main_drawerLayout);
         navigationView = (NavigationView) findViewById(R.id.navigation);
+
+        toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
@@ -75,12 +85,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             //search
             case R.id.nav_item_about:
                 //Toast.makeText(this, "About navigation button selected", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(this, AboutActivity.class);
+                intent = new Intent(this, AboutActivity.class);
                 startActivity(intent);
                 return true;
             //view
             case R.id.nav_item_calendar:
-                Toast.makeText(this, "Calendar navigation detail button selected", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(this, "Calendar navigation detail button selected", Toast.LENGTH_SHORT).show();
+                intent = new Intent(this, Calendar.class);
+                startActivity(intent);
                 return true;
             case R.id.nav_item_setting:
                 Toast.makeText(this, "Setting navigation grid button selected", Toast.LENGTH_SHORT).show();
@@ -115,6 +127,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             //search
             case R.id.action_bar_search:
                 Toast.makeText(this, "Search button selected", Toast.LENGTH_SHORT).show();
+                item.getIcon().setTint(0xff64b5f6);
                 return true;
             //view
             case R.id.action_bar_view_detail:

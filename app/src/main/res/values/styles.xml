@@ -1,19 +1,18 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.MaterialComponents">
-        <item name="actionBarPopupTheme">@style/Theme.MaterialComponents</item>
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
 
-<!--        Dark Themes-->
-<!--        <item name="colorSurface">#03A9F4</item>-->
-<!--        <item name="colorOnSurface">#10E725</item>-->
-<!--        <item name="android:statusBarColor">@android:color/holo_green_dark</item>-->
+        <!--        Dark Themes-->
+        <!--        <item name="colorSurface">#03A9F4</item>-->
+        <!--        <item name="colorOnSurface">#10E725</item>-->
+        <!--        <item name="android:statusBarColor">@android:color/holo_green_dark</item>-->
 
-<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
-<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
-<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
-<!--        <item name="colorAccent">@color/colorAccent</item>-->
-<!--        <item name="controlBackground">@color/dark</item>-->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="controlBackground">@color/dark</item>
 
     </style>
 
@@ -27,11 +26,19 @@
     </style>
 
 
-
-
-
-    <style name="Edit_textView">
+    <style name="TitleTextView">
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
 
     </style>
+
+    <style name="MemberTextView">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
 
 </resources>
